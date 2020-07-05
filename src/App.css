@@ -1,38 +1,41 @@
-.App {
+.App{
+  background-image: url(https://source.unsplash.com/random);
+  height:20cm ;
+  width:40cm ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.box{
+  height: 2cm;
+  width: 14cm;
+  background-color: aliceblue;
+  border-radius:1% ;
+  margin-top: 6cm;
+  margin-left: 12cm;
+
+}
+.book{
+  font-style: oblique;
+  color: white
+}
+.box1{
+  margin-top: 6cm;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input{
+  margin-left: 17cm;
+  margin-top:1cm;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.class{
+  height: 0.7cm;
+  width: 10cm;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: white;
+  margin-top: 0.3cm;
+  margin-left: 14cm;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.yo{
+  margin-left: 1cm;
 }
